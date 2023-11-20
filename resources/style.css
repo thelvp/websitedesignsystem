@@ -80,6 +80,12 @@ body {
 
 /* <!--- 1. Colours ---> */
 
+.block {
+    display: inline-block;
+    width: 23%;
+    margin: auto;
+}
+
 .colourtable {
     width: 150px;
     height: 80px;
