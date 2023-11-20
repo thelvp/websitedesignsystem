@@ -1,3 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@200;400;600&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, #db782a, #08a08e);
+    background-repeat: repeat;
+}
+
+/* <!--- Header ---> */
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Bebas neue", sans-serif;
+    font-weight: bold;
+   
+    & h1 {
+        color: black;
+        text-shadow: 2px 1px #08a08e;
+    }
+   
+    & h2 {
+        color: white;
+        position: relative;
+        top: -20px;
+        opacity: 0.6;
+    }
+}
+
+/* <!--- Footer & Content ---> */
+
+.footer, .content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* <!--- Content general ---> */
+
+.content h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.colours, .fonts, .styles {
+    border: 3px solid rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.3);
+    padding: 20px;
+    margin-bottom: 30px;
+} 
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.light {
+    font-weight: lighter;    
+}
+
+.bebas {
+    font-family: "Bebas Neue", Arial, sans-serif;
+}
+
+.yanone {
+    font-family: "Yanone Kaffeesatz", Arial, sans-serif;
+}
+
+.helvetica {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* <!--- 1. Colours ---> */
+
+.colourtable {
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+    .colours p {
+        background-color: rgb 2019,120,42;
+        color: white;;
+    }
+
+    #orange {
+        background-color: #db782a;
+    }
+
+    #bluegreen {
+        background-color:#08a08e;
+    }
+
+    #yellow {
+        background-color: #e2bc00;
+    }
+
+    #green {
+        background-color: rgb(46,125,71);
+    }
+
+/* <!--- 2. Fonts ---> */
+
+.fonts h3 {
+    font-size: 20pt;
+}
+
+/* <!--- 3. Styles ---> */
+
+.styles {
+    
+    & h1 {
+        font-family: "Bebas neue", sans-serif;
+        font-weight: bold;
+    }
+
+    & h2 {
+        font-family: Helvetica, Arial, sans-serif;
+        text-decoration: underline;
+    }
+
+    & p, li {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+}
+
+#boldunderline {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* <!--- Footer ---> */
+
+.footer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: small;
+    margin-bottom: 20px;
+    text-align: center;
 }
